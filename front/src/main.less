@@ -1,0 +1,34 @@
+@theme: rgb(0, 154, 97);
+@bg-c: #fafafa;
+@font-c: #949494;
+@width: 1200px;
+body{font-family: "Microsoft YaHei",serif;color:@font-c;}
+body,dl,dd,p,h1,h2,h3,h4,h5,h6{margin:0;}
+ol,ul,li{margin:0;padding:0;list-style:none;}
+img{border:none;}
+a{text-decoration:none;color:inherit;}
+.fl-l {
+  float: left;
+}
+.fl-r {
+  float: right;
+}
+.pos-f {
+  position: fixed;
+}
+.pos-a {
+  position: absolute;
+}
+.pos-r {
+  position: relative;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.wrap {
+  margin: auto;
+  width: @width;
+  min-width: @width;
+}
